@@ -1,4 +1,4 @@
-package com.example.crudapi;
+package com.example.crudapi.entity;
 
 public class Name {
 
@@ -11,14 +11,12 @@ public class Name {
         this.name = name;
     }
 
+
     public int getId(){
-        return this.id;
+        return id;
     }
 
     public String getName(){
-        return this.name;
+        return name;
     }
-
-
-
 }
