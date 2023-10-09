@@ -10,6 +10,6 @@ import java.util.List;
 @Mapper
 public interface NameMapper {
 
-    @Select("SELECT * FROM names")
+    @Select("SELECT * FROM names INNER JOIN countries ON names.name_id = countries.country_id;")
     List<Name> findAll();
 }
