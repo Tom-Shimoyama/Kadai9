@@ -2,27 +2,27 @@ package com.example.crudapi.entity;
 
 public class Nationality {
 
-    private int name_id, country_id;
+    private int nameId, countryId;
 
     private String name, country;
 
 
-    public Nationality(int name_id, String name,
-                       int country_id, String country) {
-        this.name_id = name_id;
+    public Nationality(int nameId, String name,
+                       int countryId, String country) {
+        this.nameId = nameId;
         this.name = name;
-        this.country_id = country_id;
+        this.countryId = countryId;
         this.country = country;
     }
 
 
 
-    public int getName_id() {
-        return name_id;
+    public int getNameId() {
+        return nameId;
     }
 
-    public int getCountry_id() {
-        return country_id;
+    public int getCountryId() {
+        return countryId;
     }
 
     public String getName() {
